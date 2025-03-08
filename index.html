@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIRI GUDURU - Portfolio</title>  <link rel="stylesheet" href="style.css"> </head>
@@ -54,7 +54,7 @@
     </section>
     
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 class="pro">Projects</h2>
         <div class="projects-container">
             <div class="project-card">
                 <h3>RFID Door Locking System</h3>
@@ -91,13 +91,19 @@
             <a href="assets/images/4.jpg" target="_blank">Technical Seminar</a>
         </div>
     </section>
-    
     <section id="contact">
-        <h2 style="color: #2b1625; font-size: x-large;">Contact</h2>
-        <p>email:<a href="mailto:siriguduru@9gmail.com" target="_blank">siriguduru9@gmail.com</a></p> <p>LinkedIn : <a href="https://www.linkedin.com/in/siriguduru">Siri Guduru</a></p>  </section>
-        
+        <h2>Contact Me</h2>
+        <form id="contact-form" onsubmit="return submitForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+     
     <footer>
         <p>&copy; 2025 Siri Guduru</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
