@@ -28,7 +28,7 @@ footer {
     text-align: center;
 }
 header {
-    background-color: #fbf5e5;;
+    background-color: #ffedfa;;
     padding: 40px;
     min-height: 100vh;
 }
@@ -71,7 +71,7 @@ header {
     height: 300px;
     border-radius: 50%; /* Makes it circular */
     object-fit: cover;
-    border: 3px solid rgb(235, 191, 236);
+    border: 3px solid rgb(231, 188, 231);
 }
 .tagline {
     font-size: 36px;
@@ -97,7 +97,7 @@ header {
 }
 #experience {
     padding: 40px;
-    background-color: #fbf5e5;
+    background-color: #ffedfa;
     text-align: center;
     font-size: larger;
     border-top: 4px solid black;
@@ -136,7 +136,7 @@ header {
     font-family:'Times New Roman', Times, serif;
 }
 #about {
-    background:#fff2f2; /* Soft gradient */
+    background:#ffdfef; /* Soft gradient */
     padding: 50px;
     text-align: center;
     font-size: larger;
@@ -153,7 +153,7 @@ header {
 }
 /* Projects Section */
 #projects {
-    background-color: #fff2f2; /* Light pink background */
+    background-color: #fff2f2; 
     padding: 50px 20px;
     text-align: center;
 }
